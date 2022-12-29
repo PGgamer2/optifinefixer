@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "priority": 2000,
+  "package": "com.pg.optifinefixer.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "mixins.optifinefixer.refmap.json",
+  "client": [
+    "QuadBakingVertConsumerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
